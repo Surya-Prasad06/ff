@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (Sensitive data like database URIs & API keys)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+debug.log
+stacktrace.log
+
+# Build output
+dist/
+build/
+.out/
+.cache/
+
+# MongoDB database & dump files
+*.log
+*.pid
+*.seed
+dump/
+data/
+*.json
+*.bson
+*.lock
+mongod.lock
+
+# Process ID files
+pids/
+*.pid
+*.seed.js
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debugging
+.nyc_output/
+coverage/
